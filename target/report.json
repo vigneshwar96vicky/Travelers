@@ -1,0 +1,354 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 840029293,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User move to All product tab",
+            "match": {
+              "location": "TestScript.user_move_to_All_product_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2881754850,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User clicks All product tab",
+            "match": {
+              "location": "TestScript.user_clicks_All_product_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 294065796,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Stores the All Insurance products in Excel",
+            "match": {
+              "location": "TestScript.user_Stores_the_All_Insurance_products_in_Excel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14546272007,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Enters the ZipCode",
+            "match": {
+              "location": "TestScript.user_Enters_the_ZipCode()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13031692635,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.lan()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "validating personal Insurance",
+        "description": "",
+        "id": "validating-the-personal-insurance-page;validating-personal-insurance",
+        "after": [
+          {
+            "result": {
+              "duration": 52526,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeB()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13170274103,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Choose to continue with quote",
+            "match": {
+              "location": "TestScript2.user_Choose_to_continue_with_quote()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test2"
+          }
+        ]
+      }
+    ],
+    "name": "validating the Personal Insurance page",
+    "description": "",
+    "id": "validating-the-personal-insurance-page",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Freature_file/AB_Travelers_PersonalInsurance.feature",
+    "tags": [
+      {
+        "name": "@test2",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 3,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 8657010880,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.lan()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "verify All product",
+        "description": "",
+        "id": "module-page-load-page-verification;verify-all-product",
+        "after": [
+          {
+            "result": {
+              "duration": 15697,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeB()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 763552565,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User move to All product tab",
+            "match": {
+              "location": "TestScript.user_move_to_All_product_tab()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2963308413,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks All product tab",
+            "match": {
+              "location": "TestScript.user_clicks_All_product_tab()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 297595854,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Stores the All Insurance products in Excel",
+            "match": {
+              "location": "TestScript.user_Stores_the_All_Insurance_products_in_Excel()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4118180551,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Enters the ZipCode",
+            "match": {
+              "location": "TestScript.user_Enters_the_ZipCode()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 37432,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Navigates to Main page",
+            "match": {
+              "location": "TestScript.user_Navigates_to_Main_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test1"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 23163294286,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.lan()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "verify Aauto module",
+        "description": "",
+        "id": "module-page-load-page-verification;verify-aauto-module",
+        "after": [
+          {
+            "result": {
+              "duration": 909833,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.closeB()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 12527568,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "validiating the first page for title",
+            "match": {
+              "location": "TestScript.validiating_the_first_page_for_title()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 59111406,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "validiating for the module",
+            "match": {
+              "location": "TestScript.validiating_for_the_module()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1629283598,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "validiating the module is clickable",
+            "match": {
+              "location": "TestScript.validiating_the_module_is_clickable()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1328872512,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "validiating the action moves to current auto module",
+            "match": {
+              "location": "TestScript.validiating_the_action_moves_to_current_auto_module()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2332241,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "valiating the section",
+            "match": {
+              "location": "TestScript.valiating_the_section()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3127365220,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "checking the browser action",
+            "match": {
+              "location": "TestScript.checking_the_browser_action()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test1"
+          }
+        ]
+      }
+    ],
+    "name": "Module page load page verification",
+    "description": "",
+    "id": "module-page-load-page-verification",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Freature_file/A_Travelers_HomePAGE.feature",
+    "tags": [
+      {
+        "name": "@test1",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
